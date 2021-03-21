@@ -97,12 +97,6 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-relative-images`,
-            options: {
-              name: `imagePost`
-            }
-          },
-          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,

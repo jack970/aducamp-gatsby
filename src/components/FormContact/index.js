@@ -37,7 +37,6 @@ const FormContact = () => {
         setContato({})
     }
 
-    console.log(contato)
     return(
         <S.LayoutWrapper>
             <S.ContactForm name="contact" method="post" onSubmit={(e) => handleSubmit(e)}>
